@@ -1,17 +1,28 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>CV</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <nav> ...same nav links... </nav>
-  <section>
-    <h2>My CV</h2>
+<body class="bg-white text-gray-900">
+  <!-- Navbar -->
+  <nav class="bg-primary text-white p-4 flex justify-center space-x-6">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="cv.html">CV</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- CV Section -->
+  <section class="max-w-3xl mx-auto py-12 px-6 text-center">
+    <h2 class="text-3xl font-bold mb-6">My CV</h2>
     <a href="cv.pdf" target="_blank">
-      <img src="assets/cv-thumbnail.png" alt="CV Thumbnail" class="cv-thumb">
+      <img src="assets/cv-thumbnail.png" alt="CV Thumbnail" class="mx-auto border-4 border-primary rounded shadow-lg w-64">
     </a>
-    <p>Click the image to view full CV.</p>
+    <p class="mt-4 text-lg">Click the image to view the full CV. Replace <code>cv.pdf</code> and <code>cv-thumbnail.png</code> anytime to update.</p>
   </section>
 </body>
 </html>
