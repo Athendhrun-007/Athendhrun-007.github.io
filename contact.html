@@ -1,21 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <nav> ...same nav links... </nav>
-  <section>
-    <h2>Contact Me</h2>
-    <ul>
+<body class="bg-white text-gray-900">
+  <!-- Navbar -->
+  <nav class="bg-primary text-white p-4 flex justify-center space-x-6">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="cv.html">CV</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="max-w-3xl mx-auto py-12 px-6">
+    <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+    <ul class="space-y-4 text-lg">
       <li>📞 Phone: +91-XXXXXXXXXX</li>
       <li>📧 Email: yourname@example.com</li>
-      <li>🔗 LinkedIn: <a href="https://linkedin.com/in/yourprofile">Profile</a></li>
-      <li>📄 CV: <a href="cv.pdf">Download CV</a></li>
+      <li>🔗 LinkedIn: <a href="https://linkedin.com/in/yourprofile" class="text-primary hover:underline">Profile</a></li>
+      <li>📄 CV: <a href="cv.pdf" class="text-primary hover:underline">Download CV</a></li>
     </ul>
   </section>
 </body>
 </html>
-
