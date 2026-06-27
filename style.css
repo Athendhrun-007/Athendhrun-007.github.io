@@ -1,38 +1,9 @@
-body {
-  font-family: 'Merriweather', serif;
-  background: #fdf6e3;
-  color: #333;
-  margin: 0;
+:root {
+  --primary: #4b2e2e; /* South Indian temple brown */
+  --secondary: #b58900; /* golden finance vibe */
 }
 
-nav {
-  background: #4b2e2e;
-  padding: 10px;
-  text-align: center;
-}
-nav a {
-  color: #fff;
-  margin: 0 15px;
-  text-decoration: none;
-}
-
-.hero {
-  background: linear-gradient(to right, #4b2e2e, #b58900);
-  color: white;
-  padding: 60px;
-  text-align: center;
-}
-
-.project-grid {
-  display: flex;
-  flex-wrap: wrap;
-}
-.project-card {
-  margin: 20px;
-  text-align: center;
-}
-.cv-thumb {
-  width: 200px;
-  border: 2px solid #4b2e2e;
-}
-
+.bg-primary { background-color: var(--primary); }
+.text-primary { color: var(--primary); }
+.bg-secondary { background-color: var(--secondary); }
+.text-secondary { color: var(--secondary); }
