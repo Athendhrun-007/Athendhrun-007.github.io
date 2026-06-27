@@ -1,15 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>About</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <nav> ...same nav links... </nav>
-  <section>
-    <h2>About Me</h2>
-    <p>Paste your README content here. You can edit anytime.</p>
+<body class="bg-white text-gray-900">
+  <!-- Navbar -->
+  <nav class="bg-primary text-white p-4 flex justify-center space-x-6">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="cv.html">CV</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- About Section -->
+  <section class="max-w-3xl mx-auto py-12 px-6">
+    <h2 class="text-3xl font-bold mb-6">About Me</h2>
+    <p class="text-lg leading-relaxed">
+      This section pulls from your README. You can paste or edit your content here anytime.
+      For example: “I am a second-year student pursuing Economics & Finance at Shiv Nadar University
+      and Data Science & AI at IIT Madras. My interests include valuation models, quantitative finance,
+      and interdisciplinary applications of data science.”
+    </p>
   </section>
 </body>
 </html>
